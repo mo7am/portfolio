@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mohamed Salah - Full Stack Developer (Laravel/Vue.js)">
+  <title>Home — Mohamed Salah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">Mohamed<span>Salah</span></a>
+  <nav class="nav">
+    <a href="index.html" class="nav-link active">Home</a>
+    <a href="projects.html" class="nav-link ">Projects</a>
+    <a href="resume.html" class="nav-link ">Resume</a>
+    <a href="contact.html" class="nav-link ">Contact</a>
+  </nav>
+</header>
+<main>
+  <section class="hero" data-aos="fade-up">
+    <div class="hero-text">
+      <h1>Full‑Stack Developer</h1>
+      <p>PHP • Laravel • Vue.js/Nuxt.js • MySQL • APIs • WebSockets</p>
+      <div class="cta">
+        <a href="projects.html" class="btn primary">View Projects</a>
+        <a href="resume.html" class="btn">View Resume</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <img src="assets/img/profile.svg" alt="Profile illustration">
+    </div>
+  </section>
+
+  <section class="cards">
+    <article class="card" data-aos="zoom-in">
+      <h3>Webprez Campaigns</h3>
+      <p>Multi-tenant video campaign system with JW Player, SendGrid, and analytics.</p>
+      <a href="projects.html#webprez" class="link">Read more →</a>
+    </article>
+    <article class="card" data-aos="zoom-in" data-aos-delay="100">
+      <h3>Payroll Engine</h3>
+      <p>Laravel payroll with complex rules: departments, leave, rates, and reporting.</p>
+      <a href="projects.html#payroll" class="link">Read more →</a>
+    </article>
+    <article class="card" data-aos="zoom-in" data-aos-delay="200">
+      <h3>AI Questionnaire</h3>
+      <p>Assessment pipeline using OpenAI, embeddings, and secure RBAC.</p>
+      <a href="projects.html#ai" class="link">Read more →</a>
+    </article>
+  </section>
+</main>
+<footer class="site-footer">
+  <p>© <span id="year"></span> Mohamed Salah. All rights reserved.</p>
+  <div class="socials">
+    <a href="https://github.com/mo7am" target="_blank" rel="noopener">GitHub</a>
+    <a href="#" id="email-link">Email</a>
+  </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
